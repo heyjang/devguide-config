@@ -1,18 +1,22 @@
-greeting: "Hi Hello~2"
+devguide:
+  greeting: "Hi Hello~"
 
 ---
 spring:
   profiles: stage
 
-greeting: "Hi Stage"
+devguide:
+  greeting: "Hi Stage"
 ---
 spring:
   profiles: dev
 
-greeting: "Hi Dev"
+devguide:
+  greeting: "Hi Dev"
 ---
 spring:
   profiles: local
 
-greeting: "Hi Local"
+devguide:
+  greeting: "Hi Local"
 ---
