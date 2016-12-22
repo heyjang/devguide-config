@@ -1,1 +1,18 @@
 greeting: "Hi Hello~"
+
+---
+spring:
+  profiles: stage
+
+greeting: "Hi Stage"
+---
+spring:
+  profiles: dev
+
+greeting: "Hi Dev"
+---
+spring:
+  profiles: local
+
+greeting: "Hi Local"
+---
